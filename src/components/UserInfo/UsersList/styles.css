@@ -1,0 +1,35 @@
+.usersList {
+    display: flex;
+    flex-direction: column;  
+    align-items: center;
+    padding-inline: 30px;
+    background-color: aquamarine;
+}
+
+.section-title {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.serial-user {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-inline: 20px;
+    gap: 20px
+}
+
+.serial-user:hover {
+    background-color: #a8a8a8;
+}
+
+.user-number {
+    flex: 0 0 50px;
+    font-size: 30px;
+    line-height: 1;
+    color: #ccc;
+}
+
+.user-name {
+    width: 100px;
+}

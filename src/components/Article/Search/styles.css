@@ -1,0 +1,29 @@
+
+
+.search input {
+    margin-right: 10px;
+    height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 30px;
+    border: none;
+    background: aquamarine;
+    border-bottom: 1px solid transparent;
+    border-bottom: 1px solid #ccc;
+}
+
+.search button {
+    border-radius: 30px;
+    padding: 10px 15px;
+    background: aquamarine;
+
+}
+
+.search button:hover {
+    border-color:  rgb(255, 0, 238)
+}
+
+.search-icon {
+    
+    font-size: 18px;
+}
